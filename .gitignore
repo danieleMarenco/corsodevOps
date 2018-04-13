@@ -1,0 +1,8 @@
+.idea/
+.gradle/
+.vagrant/
+
+project/project/target/
+project/target/
+
+.DS_Store

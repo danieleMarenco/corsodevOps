@@ -4,10 +4,10 @@
 	<info
 		organisation="com.example"
 		module="ls_2.12"
-		revision="1.0-SNAPSHOT"
+		revision="1.0.0-SNAPSHOT"
 		conf="linux"
 		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20180412164132"/>
+		date="20180413120901"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
