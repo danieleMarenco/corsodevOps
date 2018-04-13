@@ -1,5 +1,5 @@
 pipeline {
-    anget any {
+    agent any {
         stages {
             stage('Checkout SCM') {
                 steps{
