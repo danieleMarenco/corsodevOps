@@ -12,8 +12,13 @@ pipeline {
                 DOCKER_REPOSITORY = 'danielemarenco94'
             }
             steps{
-                sh 'sbt "release with-default"'
+                sh 'sbt "release with-defaults"'
             }
+        }
+    }
+    post {
+        always {
+            deleteDir()
         }
     }
 }
