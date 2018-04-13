@@ -12,7 +12,12 @@ pipeline {
                 DOCKER_REPOSITORY = 'danielemarenco94'
             }
             steps{
-                sh 'sbt "release with-defaults"'
+                withCredentials([usernamePassword(credentialsId: 'docker', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+                    sh 'docker login -u ${USERNAME} -p ${PASSWORD}'
+                }
+                sshagent (credentials: ['GitHub']){
+                    sh 'sbt "release with-defaults"'
+                }
             }
         }
     }
