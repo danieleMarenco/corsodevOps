@@ -4,6 +4,7 @@ pipeline {
             stage('Checkout SCM') {
                 steps{
                     checkout scm
+                    sh 'git checkout ${BRANCH_NAME}'
                 }
             }
             stage('Release') {
