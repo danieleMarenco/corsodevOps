@@ -1,5 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/dmarenco/devops-course/corsoByDani/app/ls/conf/application.conf,/Users/dmarenco/devops-course/corsoByDani/app/ls/target/scala-2.12/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/dmarenco/devops-course/corsoByDani/app/ls/conf/logback.xml,/Users/dmarenco/devops-course/corsoByDani/app/ls/target/scala-2.12/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/dmarenco/devops-course/corsoByDani/app/ls/conf/messages,/Users/dmarenco/devops-course/corsoByDani/app/ls/target/scala-2.12/classes/messages)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/dmarenco/devops-course/corsoByDani/app/ls/conf/routes,/Users/dmarenco/devops-course/corsoByDani/app/ls/target/scala-2.12/classes/routes)[0m
